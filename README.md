@@ -18,6 +18,6 @@ This page contains the supporting files for the paper *VOCCluster: Untargeted Me
 
 Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
 
-'''
+
 git clone https://github.com/Yaser218/Untargeted_Metabolomics_Clustering.git
-'''
+
