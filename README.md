@@ -1,16 +1,18 @@
-# Untargeted Metabolomics Feature Clustering
+# Untargeted Metabolomics Feature Clustering - data folder
 
 This page contains the supporting files for the paper *VOCCluster: Untargeted Metabolomics Feature Clustering Approach for Clinical Breath Gas Chromatography - Mass Spectrometry Data* by Alkhalifah et al. (2019).
 
-- **data**  contains the files that are required to be entered to the VOCCluster and any file that is generated from the aalgorithem.
+The data folder contains the following files:
 
-- **DBSCAN** contains DBSCAN algorthem that is coded in Python.
+- **Dataset.csv**  contains all VOCs from all samples. Each row in the Dataset represents a VOC. Sample number, VOC number, RI and m/z intensities are required for each VOC. This file is used by all of the algorithms.
 
-- **OPTICS** contains OPTICS algorithem that is coded in Python.
+- **Cosine_Matrix.csv** contains the cosine distance similarity between all VOCs in the Dataset. This matrix can be generated after checking RIs alignments between samples. This can be done by running RI_Variation command which is located in VOCCluster folder. This file is used by all of the algorithms.
 
-- **VOCCluster** contains VOCCluster algorithem that is coded in Python.
+- **TargetedVOCs.csv** file is only required for VOCCluster, not the others. This file contains the targeted VOCs that are used to check the alignments of the RIs in the samples.
 
-- Note: All of the algorithems read the required files from data folder to generate clusters for the given data.
+- **RI_Report.csv** is the generated file after running the  RI_Variation command. This file will help the operator to check the alignments of the RIs in all samples. If an error sample is noted, the sample must be corrected and the operation is repeated.
+
+- **load.pkl** is the generated file after running the  RI_Variation command. This file will be used with VOCCluster to pass the delta RI and the calculated epsilon.
 
 
 
