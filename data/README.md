@@ -14,10 +14,3 @@ The data folder contains the following files:
 
 - **load.pkl** is the generated file after running the  RI_Variation command. This file will be used with VOCCluster to pass the delta RI and the calculated epsilon.
 
-
-
-## Checking out the whole project
-
-Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX

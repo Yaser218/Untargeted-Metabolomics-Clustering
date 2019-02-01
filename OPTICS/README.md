@@ -10,11 +10,6 @@ This page contains the supporting files for the paper *VOCCluster: Untargeted Me
 - **optics.py** contains a script of  OPTICS algorithm. It clusters the input dataset based on the concept of the algorithm by taking into account that no more than one point from the same sample has to be in a cluster.
 
 
-## Checking out the whole project
-
-Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ## Required libraries
 

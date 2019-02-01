@@ -15,12 +15,6 @@ This page contains the supporting files for the paper *VOCCluster: Untargeted Me
 
 
 
-## Checking out the whole project
-
-Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 ## Required libraries
 
 The program depends on the following Python library:

@@ -2,13 +2,13 @@
 
 This page contains the supporting files for the paper *VOCCluster: Untargeted Metabolomics Feature Clustering Approach for Clinical Breath Gas Chromatography - Mass Spectrometry Data* by Alkhalifah et al. (2019).
 
-- **data**  contains the files that are required to be entered to the VOCCluster and any file that is generated from the aalgorithem.
+- **data**  contains the files that are required to be uploaded into the VOCCluster, DBSCAN and OPTICS. Generated files from the algorithms are stored in the data folder.
 
-- **DBSCAN** contains DBSCAN algorthem that is coded in Python.
+- **DBSCAN** contains DBSCAN algorithm that is coded in Python. DBSCAN has been tuned to cluster deconvoluted GCMS data. It will not cluster more than one VOC form a sample in a cluster.
 
-- **OPTICS** contains OPTICS algorithem that is coded in Python.
+- **OPTICS** contains OPTICS algorithem that is coded in Python. OPTICS has been tuned to cluster deconvoluted GCMS data. It will not cluster more than one VOC form a sample in a cluster.
 
-- **VOCCluster** contains VOCCluster algorithem that is coded in Python.
+- **VOCCluster** contains VOCCluster algorithem that is coded in Python. It is a novel clustering technique that is able to cluster similar VOCs from different deconvoluted samples.
 
 - Note: All of the algorithems read the required files from data folder to generate clusters for the given data.
 
@@ -17,5 +17,6 @@ This page contains the supporting files for the paper *VOCCluster: Untargeted Me
 ## Checking out the whole project
 
 Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+```
+git https://github.com/Yaser218/Untargeted-Metabolomics-Clustering.git
+```

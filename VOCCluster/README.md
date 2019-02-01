@@ -10,8 +10,3 @@ This algorithm contains two processes. Each process has been allocated in a fold
 
 -
 
-## Checking out the whole project
-
-Use the following command to clone the whole repository. This will give you all the executables, input_data and evaluation scripts used in the paper.
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
