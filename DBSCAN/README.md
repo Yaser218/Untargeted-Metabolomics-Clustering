@@ -26,7 +26,7 @@ DBSCAN requires two data files to be located in the data folder which are:
 ## Getting Started
 
 DBSCAN can be run using  on your local machine by typing the following on terminal:
-```python main.py epsilon minPts   # where epsilon and minPts are the preferred values.
+```python main.py epsilon minPts   *\\ where epsilon and minPts are the preferred values.
 ```
 ## Output
 
