@@ -5,7 +5,7 @@ This page contains the supporting files for the paper *VOCCluster: Untargeted Me
 - **main.py**  is the main executable script for the OPTICS. It has been implemented in Python. OPTICS requires two parameters to be entered which are epsilon and minPts.
 
 
-- **data_input.py** contains a script to load the data from the file Dataset.csv which is located in the data folder. The Dataset file has to be formatted as in the file and also will be explained down.
+- **data_input.py** contains a script to load the data from the file Dataset.csv which is located in the data folder. The Dataset file has to be formatted as in the file and also will be explained below.
 
 - **optics.py** contains a script of  OPTICS algorithm. It clusters the input dataset based on the concept of the algorithm by taking into account that no more than one point from the same sample has to be in a cluster.
 
