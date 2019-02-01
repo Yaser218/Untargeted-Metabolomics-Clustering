@@ -22,8 +22,3 @@ Use the following command to clone the whole repository. This will give you all 
 ```
 git https://github.com/Yaser218/Untargeted-Metabolomics-Clustering.git
 ```
-=======
-
-  git clone https://github.com/Yaser218/Untargeted_Metabolomics_Clustering.git
-
->>>>>>> c91b5ecd96de2a9fc5e03dcf80c8548ac4cb24a1
