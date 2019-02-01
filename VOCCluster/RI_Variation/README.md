@@ -31,7 +31,8 @@ RI Variation requires two data files to be located in the data folder which are:
 
 DBSCAN can be run on your local machine by typing the following on terminal:
 ```
-python main.py Dataset.csv TargetedVOCs.csv   # where dataset and TargetedVOCs are the used files name in the data folder. this command will set the default epsilon value = 0.98
+python main.py Dataset.csv TargetedVOCs.csv   # where dataset and TargetedVOCs are the used files name in the data folder.
+                                              #this command will set the default epsilon value = 0.98
 ```
 ```
 python main.py Dataset.csv TargetedVOCs.csv epsilon   # where dataset and TargetedVOCs are the used files name in the data folder. epsilon is the preferred value > 0 and <= 1.
