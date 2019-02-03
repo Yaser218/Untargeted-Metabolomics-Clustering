@@ -22,3 +22,13 @@ Use the following command to clone the whole repository. This will give you all 
 ```
 git clone https://github.com/Yaser218/Untargeted-Metabolomics-Clustering.git
 ```
+
+# Importent nots: 
+
+- Large files are uploaded using git lfs. To install git lfs, visit https://git-lfs.github.com.
+
+- A fter git lfs is instaled, pull large fils after downloading the project, use the folowing comand in your terminal:
+
+        ```
+        git lfs pull
+        ```
